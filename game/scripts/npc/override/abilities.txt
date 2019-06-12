@@ -182,22 +182,25 @@
 		{
 			"01"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"radius"	"275 275 275 275 275 300 325"
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"50 70 85 95 110 130 150"
+				"LinkedSpecialBonus"		"special_bonus_unique_axe_4"
 			}
-
 			"02"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"trigger_chance"	"20"
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"275"
 			}
-
 			"03"
 			{
-				"var_type"	"FIELD_FLOAT"
-				"cooldown"	"0.45 0.4 0.35 0.3 0.25 0.2 0.15"
+				"var_type"					"FIELD_INTEGER"
+				"trigger_chance"			"20"
 			}
-
+			"04"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"cooldown"					"0.45 0.4 0.35 0.3 0.25 0.2 0.15"
+			}
 			"99"
 			{
 				"var_type" "FIELD_FLOAT"
@@ -249,11 +252,6 @@
 			{
 				"var_type"	"FIELD_INTEGER"
 				"speed_aoe"	"900 925 950 975 1000 1025 1050"
-			}
-			"07"
-			{
-				"var_type"		"FIELD_INTEGER"
-				"scepter_aoe"	"1000 1000 1000 1000 1000 1000 99999"
 			}
 			"99"
 			{
@@ -3703,39 +3701,34 @@
 		{
 			"01"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"electric_vortex_pull_units_per_second"	"100"
+				"var_type"						"FIELD_INTEGER"
+				"electric_vortex_pull_distance"		"150 200 250 300 350 400 450"
 			}
-
 			"02"
 			{
-				"var_type"	"FIELD_FLOAT"
-				"electric_vortex_pull_tether_range"	"1200.0"
+				"var_type"						"FIELD_FLOAT"
+				"electric_vortex_pull_tether_range"			"1200.0"
 			}
-
 			"03"
 			{
-				"var_type"	"FIELD_INTEGER"
+				"var_type"			"FIELD_INTEGER"
 				"electric_vortex_self_slow"	"-50"
 			}
-
 			"04"
 			{
-				"var_type"	"FIELD_INTEGER"
+				"var_type"			"FIELD_INTEGER"
 				"electric_vortex_self_slow_duration"	"3.0"
 			}
-
 			"05"
 			{
-				"var_type"	"FIELD_FLOAT"
-				"duration_tooltip"	"1.0 1.2 1.4 1.6 1.8 2.0 2.2"
+				"var_type"			"FIELD_FLOAT"
+				"duration_tooltip"	"1.4 1.8 2.2 2.4 2.8 3.2 3.6"
 				"LinkedSpecialBonus"	"special_bonus_unique_storm_spirit"
 			}
-
 			"06"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"radius_scepter"	"450"
+				"var_type"			"FIELD_INTEGER"
+				"radius_scepter"	"475"
 			}
 
 		}
@@ -5089,43 +5082,38 @@
 		"AbilityCooldown"	"18 17 16 15 14 13 12"
 		"AbilityManaCost"	"90 100 110 120 140 150 160"
 		"AbilitySpecial"
-		{
+	{
 			"01"
 			{
-				"var_type"	"FIELD_FLOAT"
-				"fail_stun_duration"	"0.75"
+				"var_type"				"FIELD_FLOAT"
+				"fail_stun_duration"	"0.5"
 			}
-
 			"02"
 			{
-				"var_type"	"FIELD_FLOAT"
-				"stun_duration"	"2.0 2.3 2.6 2.9 3.2 3.5 3.8"
+				"var_type"				"FIELD_FLOAT"
+				"stun_duration"			"1.5 1.75 2 2.25 2.5 2.75 3"
+				"LinkedSpecialBonus"	"special_bonus_unique_windranger_6"
 			}
-
 			"03"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"shackle_distance"	"575"
+				"var_type"				"FIELD_INTEGER"
+				"shackle_distance"		"575"
 			}
-
 			"04"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"arrow_speed"	"1700"
+				"var_type"				"FIELD_INTEGER"
+				"arrow_speed"			"1650"
 			}
-
 			"05"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"shackle_count"	"1 1 1 1 2 3 4"
+				"var_type"				"FIELD_INTEGER"
+				"shackle_count"			"1"
 			}
-
 			"06"
 			{
-				"var_type"	"FIELD_FLOAT"
-				"shackle_angle"	"23 23 23 23 23 30 50"
+				"var_type"				"FIELD_FLOAT"
+				"shackle_angle"			"23"
 			}
-
 		}
 
 	}
@@ -5239,37 +5227,28 @@
 	{
 		"MaxLevel"	"7"
 		"AbilityCastRange"	"600 600 600 600 600 600 650"
-		"AbilityCooldown"	"70.0"
+		"AbilityCooldown"	"70.0 60.0 50.0 40.0 30.0 20.0 10.0"
 		"AbilityDuration"	"20"
 		"AbilityManaCost"	"75 100 125 150 175 200 225"
 		"AbilitySpecial"
 		{
 			"01"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"bonus_attack_speed"	"600"
+				"var_type"						"FIELD_INTEGER"
+				"bonus_attack_speed"			"450"
 			}
 			"02"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"focusfire_damage_reduction"	"-50 -40 -30 -20 -10 -5 -0"
+				"var_type"						"FIELD_INTEGER"
+				"focusfire_damage_reduction"	"-50 -40 -30 -20 -10 0 10"
+				"LinkedSpecialBonus"		"special_bonus_unique_windranger_8"
 			}
 			"03"
 			{
-				"var_type"	"FIELD_INTEGER"
+				"var_type"						"FIELD_INTEGER"
 				"focusfire_duration_tooltip"	"20"
 			}
 			"04"
-			{
-				"var_type"	"FIELD_FLOAT"
-				"cooldown_scepter"	"15"
-			}
-			"05"
-			{
-				"var_type"	"FIELD_INTEGER"
-				"focusfire_damage_reduction_scepter"	"-30 -15 0 5 10 15 20"
-			}
-			"06"
 			{
 				"var_type"						"FIELD_INTEGER"
 				"focusfire_fire_on_the_move"	"1"
@@ -6046,35 +6025,32 @@
 		{
 			"01"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"miss_rate"	"100"
+				"var_type"				"FIELD_INTEGER"
+				"miss_rate"				"100"
 			}
-
 			"02"
 			{
-				"var_type"	"FIELD_FLOAT"
-				"duration_hero"	"3 3.3 3.6 3.9 4.2 4.5 5"
+				"var_type"				"FIELD_FLOAT"
+				"duration_hero"			"2 2.5 3 3.5 4 4.5 5"
+				"LinkedSpecialBonus"	"special_bonus_unique_tinker_4"
 			}
-
 			"03"
 			{
-				"var_type"	"FIELD_FLOAT"
-				"duration_creep"	"6.0"
+				"var_type"				"FIELD_FLOAT"
+				"duration_creep"		"6.0"
+				"LinkedSpecialBonus"	"special_bonus_unique_tinker_4"
 			}
-
 			"04"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"laser_damage"	"80 160 240 320 400 480 560"
+				"var_type"				"FIELD_INTEGER"
+				"laser_damage"			"80 160 240 320 400 480 560"
 				"LinkedSpecialBonus"	"special_bonus_unique_tinker"
 			}
-
 			"05"
 			{
-				"var_type"	"FIELD_INTEGER"
+				"var_type"				"FIELD_INTEGER"
 				"cast_range_tooltip"	"650"
 			}
-
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
@@ -6299,13 +6275,15 @@
 		"AbilityCooldown"				"20 18 17 15 13 10 8"
 		"AbilityManaCost"				"30"
 		"AbilitySpecial"
-		{
+	{
 			"01"
 			{
 				"var_type"						"FIELD_INTEGER"
 				"bonus_attack_range"			"100 150 200 250 300 350 400"
+				"LinkedSpecialBonus"			"special_bonus_unique_sniper_6"
 			}
 		}
+
 	}
 
 	"sniper_assassinate"
@@ -6881,17 +6859,15 @@
 				"var_type"	"FIELD_FLOAT"
 				"slow_duration"	"2 2.5 3 3.5 4 4.5 5"
 			}
-
 			"10"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"cast_range_scepter"	"950 950 950 1000 1050 1100 1150"
+				"var_type"					"FIELD_INTEGER"
+				"movement_speed"			"40"
 			}
-
 			"11"
 			{
-				"var_type"	"FIELD_FLOAT"
-				"cooldown_scepter"	"30"
+				"var_type"					"FIELD_FLOAT"
+				"movement_speed_duration"			"3.0"
 			}
 			"99"
 			{
@@ -9723,24 +9699,29 @@
 			"01"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"range"				"1300"
+				"range"			"1300"
 			}
 			"02"
 			{
 				"var_type"			"FIELD_FLOAT"
-				"duration"			"20"
+				"duration"	"20"
 			}
 			"03"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"count"				"4"
+				"count"			"4 4 5 5 5 6 7"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"attack_rate"			"1.7 1.6 1.5 1.4 1.3 1.2 1.1 "
+				"attack_rate"			"1.3"
 			}
 			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"base_damage_percent"	"90 100 110 120 130 140 150"
+			}
+			"07"
 			{
 				"var_type"				"FIELD_FLOAT"
 				"spawn_interval"			"0.8"
@@ -11307,30 +11288,31 @@
 		{
 			"01"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"max_units"	"1 2 3 4 7 11 15"
+				"var_type"				"FIELD_INTEGER"
+				"max_units"				"1 2 3 4 5 6 7"
 				"LinkedSpecialBonus"	"special_bonus_unique_chen_1"
 			}
-
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"level_req"				"6"
+				"level_req"				"600"
 			}
-
 			"03"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"health_min"	"700 1000 1300 1600 1900 2200 2500"
+				"var_type"				"FIELD_INTEGER"
+				"health_min"			"1000"
 				"LinkedSpecialBonus"	"special_bonus_unique_chen_4"
 			}
-
 			"04"
 			{
-				"var_type"				"FIELD_FLOAT"
-				"teleport_delay"	"6.0"
+				"var_type"				"FIELD_INTEGER"
+				"movement_speed_bonus"	"10 15 20 25 30 35 40"
 			}
-
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_bonus"			"10 20 40 60 80 100 120"
+			}
 		}
 
 	}
@@ -13607,23 +13589,28 @@
 			"01"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"mana_steal"		"50 70 110 130 150 170 200"
+				"mana_steal"		"10 15 20 25 30 35 40"
 			}
 			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"mana_steal_active"	"20 30 50 70 90 110 130"
+			}
+			"03"
 			{
 				"var_type"			"FIELD_INTEGER"
 				"movement_slow"		"10 15 20 25 30 35 40"
 				"LinkedSpecialBonus"	"special_bonus_unique_outworld_devourer_2"
 			}
-			"03"
+			"04"
 			{
 				"var_type"			"FIELD_FLOAT"
 				"slow_duration"		"1.75"
 			}
-			"04"
+			"05"
 			{
 				"var_type"			"FIELD_FLOAT"
-				"duration"			"4"
+				"duration"			"5"
 			}
 		}
 	}
@@ -14841,47 +14828,47 @@
 
 	"treant_natures_guise"
 	{
-		"MaxLevel"	"7"
+		"MaxLevel"						"7"
+		"AbilityCastPoint"				"0.6"
+		"AbilityCooldown"				"10 8 6 4"
+		"AbilityManaCost"				"30 40 50 60 70 80 90 "
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
 		"AbilitySpecial"
 		{
 			"01"
 			{
-				"var_type"					"FIELD_FLOAT"
-				"fade_time"					"9.0 8.0 7.0 6.0 5.0 4.0 3.0"
-			}
-			"02"
-			{
 				"var_type"					"FIELD_INTEGER"
 				"radius"					"265"
 			}
-			"03"
+			"02"
 			{
 				"var_type"					"FIELD_FLOAT"
 				"grace_time"				"0.75"
 			}
-			"04"
+			"03"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"movement_speed"			"10 14 18 22 26 28 32"
+				"movement_speed"			"20 22 24 26 28 30 35"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"bash_duration"				"0.5 0.75 1.0 1.25 1.5 1.75 2"
+				"LinkedSpecialBonus"		"special_bonus_unique_treant_4"
 			}
 			"05"
 			{
 				"var_type"					"FIELD_FLOAT"
-				"bash_duration"				"0.4 0.6 1.0 1.3 1.6 1.8 2.0"
-				"LinkedSpecialBonus"		"special_bonus_unique_treant_4"
+				"total_damage"				"70 120 160 210 280 350 420"
 			}
 			"06"
-			{
-				"var_type"					"FIELD_FLOAT"
-				"total_damage"				"30 60 100 120 140 160 180"
-			}
-			"07"
 			{
 				"var_type"					"FIELD_INTEGER"
 				"tick_count"				"3"
 			}
 		}
-	}
 
 	"treant_leech_seed"
 	{
@@ -16732,7 +16719,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"radius"					"500"
+				"radius"					"1500"
 			}
 			"02"
 			{
@@ -16770,61 +16757,51 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"creep_damage"				"15 22 27 32 38 42 47"
+				"creep_damage"				"10 20 30 40 50 60 70 "
 			}
 			"02"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"hero_damage"				"25 50 75 100 175 225 300"
+				"hero_damage"				"30 50 70 90 110 130 150"
 				"LinkedSpecialBonus"		"special_bonus_unique_wisp"
 			}
 			"03"
 			{
-				"var_type"					"FIELD_INTEGER"
-				"slow"						"20 40 60 80 100 120 140"
+				"var_type"					"FIELD_FLOAT"
+				"revolution_time"			"5.0"
 			}
 			"04"
 			{
-				"var_type"					"FIELD_FLOAT"
-				"slow_duration"				"0.3"
+				"var_type"					"FIELD_INTEGER"
+				"min_range"					"200"
 			}
 			"05"
 			{
-				"var_type"					"FIELD_FLOAT"
-				"revolution_time"			"5.0"
+				"var_type"					"FIELD_INTEGER"
+				"max_range"					"700"
+				"LinkedSpecialBonus"		"special_bonus_unique_wisp_3"
 			}
 			"06"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"min_range"					"100"
+				"hero_hit_radius"			"110"
 			}
 			"07"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"max_range"					"1000"
-				"LinkedSpecialBonus"		"special_bonus_unique_wisp_3"
+				"explode_radius"			"360"
 			}
 			"08"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"hero_hit_radius"			"150"
+				"hit_radius"				"150"
 			}
 			"09"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"explode_radius"			"360"
-			}
-			"10"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"hit_radius"				"150"
-			}
-			"11"
-			{
-				"var_type"					"FIELD_INTEGER"
 				"spirit_movement_rate"		"250"
 			}
-			"12"
+			"10"
 			{
 				"var_type"					"FIELD_FLOAT"
 				"spirit_duration"			"19.0"
@@ -18972,40 +18949,29 @@
 		{
 			"01"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"hp_threshold"	"400 400 400 600 800 1200 2000"
+				"var_type"					"FIELD_INTEGER"
+				"hp_threshold"				"400 500 600 700 800 900 1200"
 			}
-
 			"02"
 			{
-				"var_type"	"FIELD_FLOAT"
-				"duration"	"4.0 4.5 5.0 5.5 6.0 6.5 7.0"
+				"var_type"					"FIELD_FLOAT"
+				"duration"					"3.5 4 4.5 5 5.5 6 6.5"
 			}
-
 			"03"
 			{
-				"var_type"	"FIELD_FLOAT"
-				"duration_scepter"	"5.0 5.5 6.0 6.5 7.0 7.5 8.0"
+				"var_type"					"FIELD_FLOAT"
+				"duration_scepter"			"4 4.5 5 5.5 6 6.5 7"
 			}
-
 			"04"
 			{
-				"var_type"	"FIELD_FLOAT"
-				"redirect"	"0.5"
+				"var_type"					"FIELD_INTEGER"
+				"ally_threshold_scepter"	"525"
 			}
-
 			"05"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"redirect_pct_tooltip_scepter"	"50"
+				"var_type"					"FIELD_INTEGER"
+				"redirect_range_scepter"		"1600"
 			}
-
-			"06"
-			{
-				"var_type"	"FIELD_FLOAT"
-				"redirect_range_tooltip_scepter"	"900"
-			}
-
 		}
 
 	}
@@ -20292,6 +20258,7 @@
 			{
 				"var_type"	"FIELD_FLOAT"
 				"illusion_outgoing_tooltip"	"40 50 60 70 80 90 100"
+				"LinkedSpecialBonus"	"special_bonus_unique_terrorblade_4"
 			}
 
 			"04"
@@ -21240,8 +21207,18 @@
 			}
 			"11"
 			{
-				"var_type"	"FIELD_INTEGER"
-				"outer_attack_buffer"	"0"
+				"var_type"							"FIELD_INTEGER"
+				"cast_range_scepter"						"1550"
+			}
+			"12"
+			{
+				"var_type"							"FIELD_INTEGER"
+				"outer_attack_buffer"				"0"
+			}
+			"13"
+			{
+				"var_type"							"FIELD_INTEGER"
+				"cooldown_scepter"					"100 90 80 70 60 50 40"
 			}
 		}
 	}
@@ -22749,7 +22726,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"crit_mult"					"140 180 200 220 240 260 300"
+				"crit_mult"					"120 130 140 150 160 180 200"
 				"LinkedSpecialBonus"		"special_bonus_unique_mars_gods_rebuke_extra_crit"
 			}
 			"02"
@@ -22762,25 +22739,35 @@
 				"var_type"					"FIELD_INTEGER"
 				"radius"					"500"
 			}
-			"06"
+			"04"
 			{
 				"var_type"					"FIELD_FLOAT"
 				"knockback_duration"		"0.3"
 			}
-			"07"
+			"05"
 			{
 				"var_type"					"FIELD_FLOAT"
 				"knockback_distance"		"150"
 			}
-			"08"
+			"06"
 			{
 				"var_type"					"FIELD_FLOAT"
 				"activity_duration"			"2"
 			}
-			"09"
+			"07"
 			{
 				"var_type"					"FIELD_INTEGER"
 				"bonus_damage_vs_heroes"	"25"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"scepter_duration"			"2"
+			}
+			"09"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"scepter_cooldown"			"1.4"
 			}
 		}
 	}
